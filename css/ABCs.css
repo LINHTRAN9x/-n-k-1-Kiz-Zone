@@ -121,6 +121,7 @@ img {
 .abc-game-content{
     background-color: #F75C3E;
     width: 100%;
+    border-bottom: 3px solid #892020;
 }
 
 .list-title-tabs,
@@ -252,6 +253,11 @@ img {
     justify-content: space-between;
     font-weight: 300; 
     align-items: center;
+}
+
+#carouselExampleControls{
+    background-color: #fff;
+    padding: 1rem;
 }
 /* ABCs-TAB-END */
 
