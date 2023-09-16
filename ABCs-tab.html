@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,700&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Vina+Sans&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body id="main">
     <!-- ABCs tab START -->
     <section>
         <div class="abc-nav-container d-flex justify-content-evenly">
@@ -401,10 +401,24 @@
               <h4 class="fw-lighter">Copyright 2023 Kiz-Zone.com, L.L.C., a division of IXL Learning • All Rights Reserved</h4>
               <div class="fs-1"><i class="fa fa-children"></i></div>
               <h1>Kids-Zone</h1>
+              <a href="#top" id="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
           </div>
           
       </div>
   </footer>
+    <!-- //BACK_TO_TOP -->
+    <script>  
+    var backToTopButton = document.getElementById('back-to-top');
+       window.onscroll = function() {
+         if (window.scrollY > 2500) {
+        // Nếu vị trí cuộn vượt quá 200px, thêm lớp 'show'
+           backToTopButton.classList.add('show');
+    } else {
+        // Nếu không, loại bỏ lớp 'show'
+        backToTopButton.classList.remove('show');
+    }
+};
+    </script>
      <!-- END-FOOTER_SECTION -->
   </body>
 </html>
