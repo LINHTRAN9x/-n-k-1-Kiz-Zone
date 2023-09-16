@@ -243,7 +243,7 @@ img {
 }
 
 .item-game-container .item-game{
-    margin: 1.125rem 0.5rem;
+    margin: 1.125rem 1rem;
     border: 0.125rem solid var(--color-yellow);
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background-color: var(--color-yellow);
@@ -251,7 +251,7 @@ img {
     cursor: pointer;
     display: inline-block;
     flex: 1 0 auto;
-    margin-right: 1.25rem;
+    margin-right: 1rem;
     position: relative;
     text-decoration: none;
     vertical-align: top;
