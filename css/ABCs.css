@@ -251,6 +251,9 @@ img {
     box-shadow: none;
     opacity: 1;
 }
+.item-game-container .item-game:active{
+    opacity: 0.5;
+}
 .item-game-container .item-game img{
     border-radius: 0.625rem;
     box-sizing: border-box;
