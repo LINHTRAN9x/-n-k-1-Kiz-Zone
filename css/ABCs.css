@@ -247,7 +247,7 @@ img {
     vertical-align: top;
 }
 .list-mini-banners video{
-   width: 85vw;
+   width: 100%;
    height: auto;
    border: none;
 }
