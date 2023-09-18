@@ -125,6 +125,7 @@ const app = {
             `
         });
 
+        // Sử dụng jQuery để thay đổi nội dung phần tử
         itemGame.html(htmls.join(''));
     },
 
@@ -144,13 +145,30 @@ $(document).ready(function () {
 var backToTopButton = document.getElementById('back-to-top');
    window.onscroll = function() {
      if (window.scrollY > 2500) {
-    
+    // Nếu vị trí cuộn vượt quá 200px, thêm lớp 'show'
        backToTopButton.classList.add('show');
 } else {
-    
+    // Nếu không, loại bỏ lớp 'show'
     backToTopButton.classList.remove('show');
 }
 };
 
-
+//carousel 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
 
