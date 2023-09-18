@@ -155,7 +155,7 @@ var backToTopButton = document.getElementById('back-to-top');
 
 //carousel 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:0,
     nav:false,
     dots: true,
