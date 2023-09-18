@@ -125,7 +125,6 @@ const app = {
             `
         });
 
-        // Sử dụng jQuery để thay đổi nội dung phần tử
         itemGame.html(htmls.join(''));
     },
 
@@ -145,10 +144,10 @@ $(document).ready(function () {
 var backToTopButton = document.getElementById('back-to-top');
    window.onscroll = function() {
      if (window.scrollY > 2500) {
-    // Nếu vị trí cuộn vượt quá 200px, thêm lớp 'show'
+    
        backToTopButton.classList.add('show');
 } else {
-    // Nếu không, loại bỏ lớp 'show'
+    
     backToTopButton.classList.remove('show');
 }
 };
